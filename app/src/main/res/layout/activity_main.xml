@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0B0924">
+
+
+        <ImageView
+            android:src="@drawable/foursquare2"
+            android:id="@+id/foursquare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false" />
+
+        <Button
+            android:text="         Start        "
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/foursquare"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:background="@layout/button_selector"
+            />
+        <Button
+            android:text="Wang Guannan
+UID 3035362548"
+            android:id="@+id/howtoplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/start"
+            android:layout_marginTop="10dp"
+            android:background="@layout/button_selector"
+            android:layout_centerHorizontal="true"
+            />
+
+
+    </RelativeLayout>
+</ScrollView>
